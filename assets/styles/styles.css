@@ -21,7 +21,7 @@ p{
     margin:auto;
 }
 
-/* Below area styles for nav */
+/* Below area styles for Header/nav */
 
 .nav{
     overflow: auto;
@@ -36,7 +36,7 @@ p{
 }
 
 .nav h1 a{
-    font-family: Oswald,sans-serif;
+    font-family: 'Oswald',sans-serif;
     color:#96746b;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ p{
 }
 
 .nav li a{
-    font-family: Raleway,sans-serif;
+    font-family: 'Raleway',sans-serif;
     color: #312a26;
     text-decoration: none;
     font-weight: 700;
@@ -206,7 +206,7 @@ p{
 
 .merch-items img{
     width:100%;
-    height:350%;
+    height:350px;
     object-fit:cover;
 }
 
@@ -356,6 +356,47 @@ form input[type="submit"]{
     background-color: #c7a17a;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* Below area styles for developers */
+
+.developers{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.deve-profile{
+    border: 2px solid gray;
+    padding: 2%;
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-top:2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.deve-profile img{
+    width:100%;
+    height: 100%;
+    border-radius: 150px;
+}
+
+.deve-profile:nth-child(4){
+    margin-right:0;
+}
+
+.deve-widgets{
+    background-color: #96746b;
+    padding: .5em;
+    margin-top: 1em;
+}
+
+.deve-widgets img{
+    height: auto;
+    width: 1.5em;
+    overflow: auto;
 }
 
 /* Below area styles for footer */
